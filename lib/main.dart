@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Screens/Contact.dart';
+import 'Screens/HomePage.dart';
 import 'Screens/Product_listing_page.dart';
 import 'Screens/WishListPage.dart';
 
@@ -16,8 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Product_listing_page(),
+      //home: Product_listing_page(),
       //home: WishListPage(),
+      home:HomePage(),
     );
   }
 }
