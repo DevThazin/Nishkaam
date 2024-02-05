@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Screens/Cart_page.dart';
 import 'Screens/Contact.dart';
 import 'Screens/HomePage.dart';
 import 'Screens/Product_listing_page.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       //home: Product_listing_page(),
       //home: WishListPage(),
-      home:HomePage(),
+      home:CartPage(),
     );
   }
 }
